@@ -1,3 +1,3 @@
-const fruits = [ 'jambu', 'jeruk', 'melon', 'semangka'];
+const fruits = [ 'jambu', 'jeruk', 'melon', 'semangka', 02];
 
-console.log(fruits[3]);
+console.log(fruits[4]);
