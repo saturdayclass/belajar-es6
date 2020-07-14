@@ -1,9 +1,4 @@
 //Spread Operator
-const profile = {
-	nama: 'Hanif',
-	umur: 19,
-	isNikah: true
-};
-const{...profle}
+const hobby = [ 'makan', 'minum', 'salto' ];
 
-console.log(...profile);
+console.log(...hobby);
