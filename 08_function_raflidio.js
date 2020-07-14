@@ -1,6 +1,6 @@
 // 
-Function profile() {
-    return ``;
+function profile(...nama) {
+    return `Nama saya adalah ${nama}`;
 }
 
-console.log(profile())
+console.log(profile("kepo", "Aku", "koe", "haha"))
