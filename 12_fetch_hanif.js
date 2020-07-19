@@ -17,7 +17,7 @@ const requestApi = async () => {
 	try {
 		const req = await fetch('https://natours-raihan.herokuapp.com/api/v1/tours');
 		const res = await req.json();
-		elemen.innerHTML = res.status.data.data[0].startLocation.address;
+		elemen.innerHTML = res.data.data[0].startLocation.address;
 	} catch (error) {
 		console.log(error);
 	}
